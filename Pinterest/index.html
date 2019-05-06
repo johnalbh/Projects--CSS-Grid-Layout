@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pinterest - Web</title>
+</head>
+<style>
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 250px);
+        grid-gap: 5px;
+        justify-content: center;
+    }
+    
+    .item {
+        border-radius: 5px;
+        padding: 10px;
+        background: #f2f2f2;
+    }
+    
+    .item img {
+        /* 100% del tamaño del contenedor*/
+        width: 100%;
+    }
+    
+    .level-1 {
+        grid-row-end: span 3;
+    }
+    
+    .level-2 {
+        grid-row-end: span 2;
+    }
+    
+    .level-3 {
+        grid-row-end: span 1;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="item level-1">
+            <img src="img/img1-web.jpg" alt="Test-1 Web">
+        </div>
+        <div class="item level-2">
+            <img src="img/img3-camiseta.jpg" alt="Test-1 Camiseta">
+        </div>
+        <div class="item level-3">
+            <img src="img/img2-escalera.jpg" alt="Test-1 Escalera">
+        </div>
+        <div class="item level-1">
+            <img src="img/img1-web.jpg" alt="Test-1 Web">
+        </div>
+        <div class="item level-2">
+            <img src="img/img3-camiseta.jpg" alt="Test-1 Camiseta">
+        </div>
+        <div class="item level-3">
+            <img src="img/img2-escalera.jpg" alt="Test-1 Escalera">
+        </div>
+        <div class="item level-1">
+            <img src="img/img1-web.jpg" alt="Test-1 Web">
+        </div>
+        <div class="item level-2">
+            <img src="img/img3-camiseta.jpg" alt="Test-1 Camiseta">
+        </div>
+        <div class="item level-3">
+            <img src="img/img2-escalera.jpg" alt="Test-1 Escalera">
+        </div>
+        <div class="item level-1">
+            <img src="img/img1-web.jpg" alt="Test-1 Web">
+        </div>
+        <div class="item level-2">
+            <img src="img/img3-camiseta.jpg" alt="Test-1 Camiseta">
+        </div>
+        <div class="item level-3">
+            <img src="img/img2-escalera.jpg" alt="Test-1 Escalera">
+        </div>
+    </div>
+</body>
+
+</html>
